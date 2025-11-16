@@ -5,7 +5,7 @@ description: |-
   
 ---
 
-# OpenHuman Provider
+# scaffolding Provider
 
 
 
@@ -13,7 +13,12 @@ description: |-
 
 ```terraform
 provider "openhuman" {
-  # example configuration here
+  required_providers = {
+    openhuman = {
+      source  = "openhuman/openhuman"
+      version = "~> 0.0.1"
+    }
+  }
 }
 ```
 
