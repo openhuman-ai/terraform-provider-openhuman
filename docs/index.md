@@ -5,14 +5,14 @@ description: |-
   
 ---
 
-# scaffolding Provider
+# OpenHuman Provider
 
 
 
 ## Example Usage
 
 ```terraform
-provider "scaffolding" {
+provider "openhuman" {
   # example configuration here
 }
 ```
